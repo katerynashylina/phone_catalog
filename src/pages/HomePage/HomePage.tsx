@@ -1,3 +1,4 @@
+/* eslint-disable react/react-in-jsx-scope */
 import './HomePage.scss';
 
 import { HotPhones } from '../../components/HotPhones/HotPhones';

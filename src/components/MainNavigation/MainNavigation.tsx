@@ -1,3 +1,4 @@
+/* eslint-disable react/react-in-jsx-scope */
 import './MainNavigation.scss';
 import { Link, useLocation } from 'react-router-dom';
 import home from '../../Icons/home.svg';

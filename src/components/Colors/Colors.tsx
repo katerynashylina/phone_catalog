@@ -1,3 +1,4 @@
+/* eslint-disable react/react-in-jsx-scope */
 import classNames from 'classnames';
 import { Link } from 'react-router-dom';
 
@@ -14,9 +15,11 @@ export const Colors: React.FC<Props> = ({
   return (
     <div className="colours__content">
       {colours.map(colour => (
-        <div className={classNames('colours__wrapper', {
-          'colours__wrapper--current': colour === currColor,
-        })}
+        <div
+          key={colour}
+          className={classNames('colours__wrapper', {
+            'colours__wrapper--current': colour === currColor,
+          })}
         >
           <Link
             to={`/phones/${product}-${capacity.toLowerCase()}-${colour}`}

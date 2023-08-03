@@ -1,3 +1,4 @@
+/* eslint-disable react/react-in-jsx-scope */
 import React from 'react';
 import './HeadNavigation.scss';
 import { Link, NavLink } from 'react-router-dom';

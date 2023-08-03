@@ -1,3 +1,4 @@
+/* eslint-disable react/react-in-jsx-scope */
 import { useParams } from 'react-router-dom';
 import { useState, useEffect } from 'react';
 import { MainNavigation } from '../../components/MainNavigation/MainNavigation';
@@ -100,6 +101,7 @@ export const PhoneDetails: React.FC<Props> = ({
                   {product.images.map(image => (
                     <button
                       type="button"
+                      key={image}
                       className="photos__sidebar--wrapper"
                       onClick={() => onClickHandle(image)}
                     >

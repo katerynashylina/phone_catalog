@@ -1,3 +1,5 @@
+/* eslint-disable react/react-in-jsx-scope */
+/* eslint-disable jsx-a11y/label-has-associated-control */
 import './Selection.scss';
 import { ChangeEvent } from 'react';
 import { Phone } from '../../types/Phone';

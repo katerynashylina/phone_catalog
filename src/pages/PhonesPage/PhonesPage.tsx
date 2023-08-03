@@ -1,3 +1,4 @@
+/* eslint-disable react/react-in-jsx-scope */
 import { useState } from 'react';
 import { MainNavigation } from '../../components/MainNavigation/MainNavigation';
 import { PhoneCard } from '../../components/PhoneCard/PhoneCard';

@@ -1,3 +1,4 @@
+/* eslint-disable react/react-in-jsx-scope */
 import './PhoneCard.scss';
 import { Link } from 'react-router-dom';
 import { Phone } from '../../types/Phone';

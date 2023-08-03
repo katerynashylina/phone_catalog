@@ -1,3 +1,4 @@
+/* eslint-disable react/react-in-jsx-scope */
 import leftArrow from '../../Icons/arrow-left-black.svg';
 
 export const BackButton = () => {

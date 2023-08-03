@@ -1,3 +1,4 @@
+/* eslint-disable react/react-in-jsx-scope */
 import './TopSlider.scss';
 
 import { useState } from 'react';

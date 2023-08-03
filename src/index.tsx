@@ -1,3 +1,4 @@
+/* eslint-disable react/react-in-jsx-scope */
 import ReactDOM from 'react-dom';
 import { Provider } from 'react-redux';
 import { HashRouter as Router } from 'react-router-dom';

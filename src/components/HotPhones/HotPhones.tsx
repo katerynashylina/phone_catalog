@@ -1,3 +1,4 @@
+/* eslint-disable react/react-in-jsx-scope */
 import './HotPhones.scss';
 import { Phone } from '../../types/Phone';
 import { PhoneSlider } from '../PhoneSlider/PhoneSlider';

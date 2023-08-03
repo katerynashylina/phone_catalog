@@ -1,3 +1,5 @@
+/* eslint-disable react/react-in-jsx-scope */
+/* eslint-disable jsx-a11y/label-has-associated-control */
 import { useLocation } from 'react-router-dom';
 import search from '../../Icons/search.svg';
 import cross from '../../Icons/closeBlack.svg';

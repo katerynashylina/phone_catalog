@@ -1,3 +1,4 @@
+/* eslint-disable react/react-in-jsx-scope */
 import './NoResults.scss';
 import noResults from '../../Icons/noResults.png';
 

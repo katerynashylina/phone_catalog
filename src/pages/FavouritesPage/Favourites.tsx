@@ -1,3 +1,4 @@
+/* eslint-disable react/react-in-jsx-scope */
 import { MainNavigation } from '../../components/MainNavigation/MainNavigation';
 import { PhoneCard } from '../../components/PhoneCard/PhoneCard';
 import { Phone } from '../../types/Phone';
@@ -37,7 +38,10 @@ export const Favourites: React.FC<Props> = ({
           ) : (
             <div className="favourites__phones">
               {likedProducts.map(product => (
-                <div className="favourites__phones--item">
+                <div
+                  key={product.id}
+                  className="favourites__phones--item"
+                >
                   <PhoneCard
                     phone={product}
                     likedProducts={likedProducts}

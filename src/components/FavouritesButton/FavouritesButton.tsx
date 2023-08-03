@@ -1,3 +1,4 @@
+/* eslint-disable react/react-in-jsx-scope */
 import classNames from 'classnames';
 import { Phone } from '../../types/Phone';
 

@@ -1,3 +1,4 @@
+/* eslint-disable react/react-in-jsx-scope */
 import './Bottom.scss';
 import classNames from 'classnames';
 import leftArrow from '../../Icons/arrow-left-black.svg';

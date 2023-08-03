@@ -1,3 +1,4 @@
+/* eslint-disable react/react-in-jsx-scope */
 import { MainNavigation } from '../../components/MainNavigation/MainNavigation';
 
 export const AccessoriesPage = () => {

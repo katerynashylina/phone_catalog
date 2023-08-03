@@ -1,3 +1,4 @@
+/* eslint-disable react/react-in-jsx-scope */
 import { useState } from 'react';
 import classNames from 'classnames';
 import { PhoneCard } from '../PhoneCard/PhoneCard';

@@ -1,3 +1,4 @@
+/* eslint-disable react/react-in-jsx-scope */
 import classNames from 'classnames';
 import { Link } from 'react-router-dom';
 

@@ -1,3 +1,4 @@
+/* eslint-disable react/react-in-jsx-scope */
 import { useState } from 'react';
 import cross from '../../Icons/closeBlack.svg';
 import './CheckoutModal.scss';
